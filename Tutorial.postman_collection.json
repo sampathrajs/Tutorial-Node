@@ -17,7 +17,8 @@
 		"1594d5ea-0899-9018-81db-ad3cfe8a69af",
 		"d2d93c61-3c63-b2ef-212a-3ed26d0dd01d",
 		"33de9e7a-1094-10dc-cf5f-5e38603b4b1a",
-		"c4b7414f-ef35-c1d7-2903-1d9dcf6e82d0"
+		"c4b7414f-ef35-c1d7-2903-1d9dcf6e82d0",
+		"8d0851ee-6f78-4cdc-c9c8-a113b6dcfc73"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -60,11 +61,10 @@
 			"headerData": [],
 			"url": "http://192.168.0.133:3000/api/file/multiple",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "POST",
-			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
 			"data": [
 				{
 					"key": "name",
@@ -82,29 +82,28 @@
 				},
 				{
 					"key": "file",
-					"value": "",
+					"value": "User details.png",
 					"description": "",
 					"type": "file",
 					"enabled": true
 				},
 				{
 					"key": "file",
-					"value": "",
+					"value": "Add user.png",
 					"description": "",
 					"type": "file",
 					"enabled": true
 				}
 			],
 			"dataMode": "params",
-			"name": "file upload(multiple)",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1532588382605,
-			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {}
+			"helperAttributes": {},
+			"time": 1532599693457,
+			"name": "file upload(multiple)",
+			"description": "",
+			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
+			"responses": []
 		},
 		{
 			"id": "3586611c-fb28-e810-1752-8433ddfb4490",
@@ -202,6 +201,37 @@
 			"description": "",
 			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
 			"responses": []
+		},
+		{
+			"id": "8d0851ee-6f78-4cdc-c9c8-a113b6dcfc73",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.0.133:3000/api/file/fetch?filename=!cid_F98A319372B8478D9DA949C5BA702158@dsrc.png",
+			"queryParams": [
+				{
+					"key": "filename",
+					"value": "!cid_F98A319372B8478D9DA949C5BA702158@dsrc.png",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
+			"data": null,
+			"dataMode": "params",
+			"name": "file get",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1532596613360,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "a833a993-3773-105b-9b22-e845021d8f5c",
@@ -384,11 +414,10 @@
 			"headerData": [],
 			"url": "http://192.168.0.133:3000/api/file/single",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "POST",
-			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
 			"data": [
 				{
 					"key": "name",
@@ -399,22 +428,21 @@
 				},
 				{
 					"key": "file",
-					"value": "",
+					"value": "User details.png",
 					"description": "",
 					"type": "file",
 					"enabled": true
 				}
 			],
 			"dataMode": "params",
-			"name": "file upload (single)",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1532588415124,
-			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {}
+			"helperAttributes": {},
+			"time": 1532599695825,
+			"name": "file upload (single)",
+			"description": "",
+			"collectionId": "8df07ae6-30e0-4312-7e90-b84821ecc2fd",
+			"responses": []
 		},
 		{
 			"id": "d2d93c61-3c63-b2ef-212a-3ed26d0dd01d",
